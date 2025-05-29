@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE6F0"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="16dp">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/imageViewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:clipChildren="false"
+                android:overScrollMode="never" />
+
+            <ImageView
+                android:id="@+id/leftArrow"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/ic_arrow_left"
+                android:alpha="0.7"
+                android:contentDescription="@string/previous_image" />
+
+            <ImageView
+                android:id="@+id/rightArrow"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/ic_arrow_right"
+                android:alpha="0.7"
+                android:contentDescription="@string/next_image" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#7A0066"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color_and_size"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color_label"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/colorsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#4A4A4A"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/size_label"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/infoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#4A4A4A"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/care_information"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lighting_label"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/lightingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#4A4A4A"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/temperature_label"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/temperatureTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#4A4A4A"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/soil_label"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/soilTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#4A4A4A"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/blooming_label"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/bloomingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#4A4A4A"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/funFactTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fun_fact"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/factTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5A5A5A"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:fontFamily="sans-serif"
+            android:visibility="gone"
+            android:background="@drawable/rounded_background"
+            android:padding="12dp" />
+    </LinearLayout>
+</ScrollView>

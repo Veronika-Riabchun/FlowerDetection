@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Flower Detection</string>
+
+    <!-- Buttons -->
+    <string name="capture_photo">📸 Capture Photo</string>
+    <string name="choose_from_gallery">🖼️ Choose from Gallery</string>
+
+    <!-- Result label -->
+    <string name="recognizing">Recognizing...</string>
+    <string name="detected_flowers">Detected flowers:</string>
+    <string name="no_flowers">No flowers detected 🥲</string>
+
+    <!-- Carousel arrows -->
+    <string name="previous_image">Previous image</string>
+    <string name="next_image">Next image</string>
+
+    <!-- Flower Info Sections -->
+    <string name="color_and_size">Color and Size</string>
+    <string name="color_label">🎨 Color</string>
+    <string name="size_label">📏 Size</string>
+
+    <string name="care_information">Care Information</string>
+    <string name="lighting_label">🌞 Lighting</string>
+    <string name="temperature_label">🌡️ Temperature</string>
+    <string name="soil_label">🌱 Soil</string>
+    <string name="blooming_label">🌸 Blooming</string>
+
+    <string name="fun_fact">Fun Fact</string>
+
+    <string name="switch_language">🌐 UA</string>
+</resources>

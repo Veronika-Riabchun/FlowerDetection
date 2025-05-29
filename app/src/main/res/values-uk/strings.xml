@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Розпізнавання Квітів</string>
+    <string name="capture_photo">📸 Зробити фото</string>
+    <string name="choose_from_gallery">🖼️ Обрати з галереї</string>
+    <string name="recognizing">Розпізнавання...</string>
+    <string name="detected_flowers">Розпізнані квіти:</string>
+    <string name="no_flowers">Квітів не виявлено 🥲</string>
+    <string name="previous_image">Попереднє зображення</string>
+    <string name="next_image">Наступне зображення</string>
+    <string name="color_and_size">Колір і розмір</string>
+    <string name="color_label">🎨 Колір</string>
+    <string name="size_label">📏 Розмір</string>
+    <string name="care_information">Інформація по догляду</string>
+    <string name="lighting_label">🌞 Освітлення</string>
+    <string name="temperature_label">🌡️ Температура</string>
+    <string name="soil_label">🌱 Ґрунт</string>
+    <string name="blooming_label">🌸 Період цвітіння</string>
+    <string name="fun_fact">Цікавий факт</string>
+    <string name="switch_language">🌐 EN</string>
+</resources>
